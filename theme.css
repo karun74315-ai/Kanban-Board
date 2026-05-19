@@ -1,0 +1,23 @@
+:root{
+    /* bg */
+    --bg-color:rgba(0, 0, 0, 0.861);
+    --bg-button-color:rgb(0, 0, 0);
+    --primary-text-color:rgb(217, 210, 210);
+
+    /* padding */
+    --nav-padding:15px 30px;
+    --section-padding:15px 30px;
+    --padding-s:5px;
+    --padding-m:10px;
+    --padding-l:15px;
+    --padding-al:20px;
+    
+
+
+    /* border */
+    --border-radius-s:5px;
+    --border-radius-m:10px;
+    --border-radius-l:15px;
+    --border-radius-xl:20px;
+    --border-radius-xxl:30px;
+}
