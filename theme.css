@@ -1,8 +1,10 @@
 :root{
     /* bg */
-    --bg-color:rgba(0, 0, 0, 0.861);
-    --bg-button-color:rgb(0, 0, 0);
+    --bg-color:rgba(0, 0, 0, 0.828);
+    --bg-button-color:rgba(0, 0, 0, 0.669);
     --primary-text-color:rgb(217, 210, 210);
+    --bg-task-color:rgba(28, 28, 28, 0.804);
+    --delete-color:rgba(255, 0, 0, 0.789);
 
     /* padding */
     --nav-padding:15px 30px;
