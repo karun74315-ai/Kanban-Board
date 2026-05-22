@@ -97,3 +97,56 @@ section .task-column.hover-over{
     border: 2px dashed var(--primary-text-color);
     scale: 1.02;
 }
+
+.modal{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;   
+}
+
+.modal.active{
+    display: flex;
+}
+.modal .bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(94, 94, 94, 0.345);
+    backdrop-filter: blur(5px);
+}
+.modal .center{
+    background-color: var(--bg-color);
+    padding: var(--padding-al);
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-m);
+    border-radius: var(--border-radius-m);
+    z-index: 10;
+
+}
+
+.modal .center input, .modal .center textarea{
+    background-color: var(--bg-task-color);
+    border: none;
+    outline: none;
+    color: var(--primary-text-color);
+    padding: var(--padding-m);
+    border-radius: var(--border-radius-s);
+}
+
+.modal .center button{
+    background-color: var(--bg-task-color);
+    border: none;
+    outline: none;
+    color: var(--primary-text-color);
+    padding: var(--padding-m) var(--padding-l);
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    border-radius: var(--border-radius-m);
+}
