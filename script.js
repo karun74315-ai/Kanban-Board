@@ -87,15 +87,15 @@ addTaskButton.addEventListener("click", ()=>{
      modal.classList.remove("active")                
 
 
-     const template = ` <div class="task" draggable="true">
-                    <h2>${taskTitle}</h2>
-                    <p>${taskDesc}</p>
-                    <button>
-                        Delete
-                    </button>
-                </div>`
+    //  const template = ` <div class="task" draggable="true">
+    //                 <h2>${taskTitle}</h2>
+    //                 <p>${taskDesc}</p>
+    //                 <button>
+    //                     Delete
+    //                 </button>
+    //             </div>`
 
-                todo.appendChild
+    //             todo.appendChild
 
 })
 
